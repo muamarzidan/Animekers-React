@@ -1,10 +1,10 @@
 import { Card, Container, Row, Col, Image} from "react-bootstrap";
-import antmanImage from "../assets/images/superhero/antman.jpg";
-import avengerImage from "../assets/images/superhero/avenger.jpg";
-import batmanImage from "../assets/images/superhero/batman.jpg";
-import robinhoodImage from "../assets/images/superhero/robinhood.jpg";
-import spidermanImage from "../assets/images/superhero/spiderman-cover.jpg";
-import supermanImage from "../assets/images/superhero/superman.jpg";
+import kiminonawaImage from "../assets/image/romance/KimiNoNawa.jpg";
+import spiderinrainImage from "../assets/image/romance/SpiderInRain.jpg";
+import spiridawayImage from "../assets/image/romance/SpiridAway.jpg";
+import spyfamilyImage from "../assets/image/romance/SpyFamily.jpg";
+import violetImage from "../assets/image/romance/VioletEvergarden.jpg";
+import youlieImage from "../assets/image/romance/YouLieInApril.jpg";
 
 
 
@@ -18,7 +18,7 @@ const SuperHero= () => {
                 <Row>
                     <Col md={4} className="movieWrapper" id="superhero"> 
                         <Card className="movieImage">
-                            <Image src={antmanImage} alt="antman" className="Images"/>
+                            <Image src={kiminonawaImage} alt="antman" className="Images"/>
                             <div className="bg-dark">
                                 <div className="p-2 m-1 text-white">
                                 <Card.Title className="text-center">DUNE</Card.Title>
@@ -32,7 +32,7 @@ const SuperHero= () => {
                     </Col>
                     <Col md={4} className="movieWrapper">
                         <Card className="movieImage">
-                            <Image src={avengerImage} alt="avenger" className="Images"/>
+                            <Image src={spiderinrainImage} alt="avenger" className="Images"/>
                             <div className="bg-dark">
                                 <div className="p-2 m-1 text-white">
                                 <Card.Title className="text-center">DUNE</Card.Title>
@@ -46,7 +46,7 @@ const SuperHero= () => {
                     </Col>
                     <Col md={4} className="movieWrapper">
                         <Card className="movieImage">
-                            <Image src={batmanImage} alt="batman" className="Images"/>
+                            <Image src={spiridawayImage} alt="batman" className="Images"/>
                             <div className="bg-dark">
                                 <div className="p-2 m-1 text-white">
                                 <Card.Title className="text-center">DUNE</Card.Title>
@@ -60,7 +60,7 @@ const SuperHero= () => {
                     </Col>
                     <Col md={4} className="movieWrapper">
                         <Card className="movieImage">
-                            <Image src={robinhoodImage} alt="robinhood" className="Images"/>
+                            <Image src={spyfamilyImage} alt="robinhood" className="Images"/>
                             <div className="bg-dark">
                                 <div className="p-2 m-1 text-white">
                                 <Card.Title className="text-center">DUNE</Card.Title>
@@ -74,7 +74,7 @@ const SuperHero= () => {
                     </Col>
                     <Col md={4} className="movieWrapper">
                         <Card className="movieImage">
-                            <Image src={spidermanImage} alt="spiderman" className="Images"/>
+                            <Image src={violetImage} alt="spiderman" className="Images"/>
                             <div className="bg-dark">
                                 <div className="p-2 m-1 text-white">
                                 <Card.Title className="text-center">DUNE</Card.Title>
@@ -88,7 +88,7 @@ const SuperHero= () => {
                     </Col>
                     <Col md={4} className="movieWrapper">
                         <Card className="movieImage">
-                            <Image src={supermanImage} alt="superman" className="Images"/>
+                            <Image src={youlieImage} alt="superman" className="Images"/>
                             <div className="bg-dark">
                                 <div className="p-2 m-1 text-white">
                                 <Card.Title className="text-center">DUNE</Card.Title>
