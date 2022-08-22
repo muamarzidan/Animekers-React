@@ -13,7 +13,7 @@ const SuperHero= () => {
         <div>
             <Container>
                 <br />
-                <h1 className="text-white">TRENDING ANIME</h1>
+                <h1 className="text-white text-center">TRENDING ANIME MAGIC</h1>
                 <br />
                 <Row>
                     <Col md={4} className="movieWrapper" id="superhero"> 

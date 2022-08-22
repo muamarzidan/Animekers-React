@@ -1,6 +1,6 @@
 .myBG {
     height: 100vh;
-    background: url("../assets/images/bg/main.jpg");
+    background: url("../assets/image/bg/hero.jpg");
     background-size: cover;
 }
 
@@ -21,13 +21,13 @@
 
 .trending {
     height: auto;
-    background: url("../assets/images/bg/scifi.jpg");
+    background: url("../assets/image/bg/gedung.jpg");
     background-size: cover;
 }
 
 .superhero {
     height: auto;
-    background: url("../assets/images/bg/spiderman.jpg");
+    background: url("../assets/image/bg/gedung2.jpg");
     background-size: cover;
 }
 
