@@ -8,7 +8,7 @@ import youlieImage from "../assets/image/romance/YouLieInApril.jpg";
 
 
 
-const SuperHero= () => {
+const AnimeRomance= () => {
     return (
         <div>
             <Container>
@@ -16,7 +16,7 @@ const SuperHero= () => {
                 <h1 className="text-white text-center">TRENDING ANIME MAGIC</h1>
                 <br />
                 <Row>
-                    <Col md={4} className="movieWrapper" id="superhero"> 
+                    <Col md={4} className="movieWrapper" id="romance"> 
                         <Card className="movieImage">
                             <Image src={kiminonawaImage} alt="antman" className="Images"/>
                             <div className="bg-dark">
@@ -106,4 +106,4 @@ const SuperHero= () => {
     )
 }
 
-export default SuperHero
+export default AnimeRomance

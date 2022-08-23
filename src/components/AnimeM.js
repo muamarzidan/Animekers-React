@@ -1,14 +1,14 @@
 import { Card, Container, Row, Col, Image} from "react-bootstrap";
-import JujutsuKaisen from "../assets/image/fight/jujutsu.jpg";
-import MaoGakuin from "../assets/image/fight/mao.jpg";
-import MobPsyco from "../assets/image/fight/mob.jpg";
-import NanatsuNo from "../assets/image/fight/nanatsu.jpg";
-import KimetsuNo from "../assets/image/fight/kimetsu.jpg";
-import AttackOn from "../assets/image/fight/attackon.jpg";
+import JujutsuKaisen from "../assets/image/magic/jujutsu.jpg";
+import MaoGakuin from "../assets/image/magic/mao.jpg";
+import MobPsyco from "../assets/image/magic/mob.jpg";
+import NanatsuNo from "../assets/image/magic/nanatsu.jpg";
+import KimetsuNo from "../assets/image/magic/kimetsu.jpg";
+import AttackOn from "../assets/image/magic/attackon.jpg";
 
 
 
-const Trending= () => {
+const AnimeMagic= () => {
     return (
         <div>
             <Container>
@@ -16,7 +16,7 @@ const Trending= () => {
                 <h1 className="text-black text-center">TRENDING ANIME MAGIC</h1>
                 <br />
                 <Row>
-                    <Col md={4} className="movieWrapper" id="trending">
+                    <Col md={4} className="movieWrapper" id="magic">
                         <Card className="movieImage">
                             <Image src={JujutsuKaisen} alt="JK" className="Images"/>
                             <div className="bg-dark">
@@ -106,4 +106,4 @@ const Trending= () => {
     )
 }
 
-export default Trending
+export default AnimeMagic

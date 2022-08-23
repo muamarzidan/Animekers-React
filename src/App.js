@@ -3,8 +3,8 @@ import './style/landingpg.css';
 
 import NavigationBar from './components/NavigationBar';
 import Intro from './components/Intro';
-import Trending from './components/Trending';
-import SuperHero from './components/Superhero';
+import Trending from './components/AnimeM';
+import SuperHero from './components/AnimeR';
 
 function App() {
   return (
@@ -17,13 +17,13 @@ function App() {
       {/*end of intro section*/}
 
       {/*Trending section*/}
-      <div className="trending">
+      <div className="magic">
         <Trending />
       </div>
       {/*end of Trending section*/}
 
       {/*Superhero section*/}
-      <div className="superhero">
+      <div className="romance">
         <SuperHero />
       </div>
       {/*end of Superhero section*/}

@@ -7,8 +7,8 @@ const NavigationBar = () => {
                 <Container>
                     <Navbar.Brand href="/">Nobarin</Navbar.Brand>
                     <Nav>
-                        <Nav.Link href="#trending">Fight</Nav.Link>
-                        <Nav.Link href="#superhero">Romance</Nav.Link>
+                        <Nav.Link href="#magic">Fight</Nav.Link>
+                        <Nav.Link href="#romance">Romance</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>        
